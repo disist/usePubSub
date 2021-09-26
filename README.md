@@ -7,7 +7,7 @@ This is one channel PubSub.
 ## Install
 
 ```bash
-npm i --S @disist/usePubSub
+npm i -S @disist/usePubSub
 ```
 
 ## Usage
