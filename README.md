@@ -6,15 +6,15 @@ This is one channel PubSub.
 
 ## Install
 
-```
-npm install --save @disist/usePubSub
+```bash
+npm i --S @disist/usePubSub
 ```
 
 ## Usage
 
 To use this hook you need to add PubSubProvider to the your App
 
-```
+```jsx
 import { PubSubProvider } from '@disist/usepubsub';
 
 function App() {
@@ -30,7 +30,7 @@ export default App;
 
 For publishing, you can use `publish` method from `usePubSub` hook, please see example:
 
-```
+```jsx
 import { useCallback } from "react";
 import { usePubSub } from "@disist/usepubsub";
 
@@ -52,7 +52,7 @@ export default Component1;
 
 For subsribing you can use simple hook `usePubSubListen`: 
 
-```
+```jsx
 import { useState } from "react";
 import { usePubSubListen } from "@disist/usepubsub";
 
@@ -76,7 +76,7 @@ export default Component3;
 
 Or you can custom addListener and removeListener
 
-```
+```jsx
   const { addListener, removeListener } = usePubSub();
 
   useEffect(() => {
