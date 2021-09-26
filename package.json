@@ -1,0 +1,24 @@
+{
+  "name": "@disist/usepubsub",
+  "version": "1.0.0",
+  "description": "Simple hook, that realizes PubSub for React apps",
+  "repository": "https://github.com/disist/usePubSub",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc --watch",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "disist",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.24",
+    "react": "^17.0.2",
+    "typescript": "^4.4.3"
+  }
+}
